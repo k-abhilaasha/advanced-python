@@ -1,0 +1,14 @@
+#A poultry farm has group of hens and cows..need to find num of cows and hens separately if total legs and total heads together given:
+legs=int(input("Enter No of legs:"))
+heads=int(input("Enter No of heads:"))
+temp=False
+for cows in range(0,heads+1):
+  hens=heads-cows
+  cal_legs=cows*4+hens*2
+  if(cal_legs==legs):
+    temp=True
+    break
+if temp:
+  print("Cows:",cows,"\nHens:",hens)
+else:
+  print("No Solution")
