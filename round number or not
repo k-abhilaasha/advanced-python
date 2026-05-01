@@ -1,0 +1,14 @@
+x=int(input("Enter a number"))
+res=[]
+while(True):
+  if x==1:
+    break
+  elif x in res:
+    break
+  else:
+    res.append(x)
+    x=sum([int(i)*int(i) for i in str(x)])
+if x==1:
+  print("Round")
+else:
+  print("No")
