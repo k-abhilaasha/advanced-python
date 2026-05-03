@@ -5,7 +5,7 @@ t=0
 ht=0
 i=1
 while(ht<x):
-  if(i%2==11):
+  if(i%2==1):
     ht=ht+y
     t=t+1
   else:
