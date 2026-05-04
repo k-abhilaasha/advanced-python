@@ -1,0 +1,9 @@
+def abhi(a):
+  if a==5:
+    return 1
+  B=abhi(a+1)
+  print("Hai")
+  return B+2
+res=abhi(1)
+print(res)
+  
