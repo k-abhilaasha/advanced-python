@@ -1,0 +1,5 @@
+def ace(name="abhi"):
+  print(name)
+ace("keer")
+ace("teja")
+ace()
