@@ -1,0 +1,3 @@
+def a(**kwargs):
+  print(kwargs)
+a(Name="Abhi",Score=50)
