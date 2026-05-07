@@ -1,0 +1,10 @@
+from tabulate import tabulate
+title=["Name","Age","Dept"]
+data=[["Abhi",20,"CSM"],
+      ["Teja",18,"CSE"],
+      ["Keer",20,"AIM"],
+      ["Sahi",20,"IT"]]
+res=tabulate(data,headers=title,tablefmt="grid")
+with open("Abhi.txt",'w') as file:
+  file.write(res)
+print("Done")
