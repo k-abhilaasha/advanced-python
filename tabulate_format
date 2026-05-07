@@ -1,0 +1,12 @@
+from tabulate import tabulate
+title=["Name","Age","Dept"]
+data=[["Abhi",20,"CSM"],
+      ["Teja",18,"CSE"],
+      ["Keer",20,"AIM"],
+      ["Sahi",20,"IT"]]
+res=tabulate(data,headers=title,tablefmt="grid")
+# res=tabulate(data,headers=title,tablefmt="fancy-grid")
+# res=tabulate(data,headers=title,tablefmt="pretty")
+# res=tabulate(data,headers=title,tablefmt="plain")
+# res=tabulate(data,headers=title,tablefmt="pipe")
+print(res)
