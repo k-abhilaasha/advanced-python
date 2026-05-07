@@ -1,0 +1,6 @@
+a=open("Abhi.txt",'r')
+c=a.readlines()
+while c:
+  print(c)
+  c=a.readlines()
+a.close()
