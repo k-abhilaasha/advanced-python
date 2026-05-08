@@ -1,0 +1,6 @@
+a=[2,5,6,7,1,8,90,3,55,66]
+res=[]
+for i in a:
+  heapq.heappush(res,i)
+heapq.heappop(res)
+print(res)
